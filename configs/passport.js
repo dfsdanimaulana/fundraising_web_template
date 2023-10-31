@@ -10,7 +10,7 @@ export default function passportInit() {
     const googleOptions = {
         clientID: config.google_CLIENT_ID,
         clientSecret: config.google_CLIENT_SECRET,
-        callbackURL: `${config.base_URL}/auth/redirect/google`,
+        callbackURL: config.google.redirect_url,
         scope: ['profile', 'email'],
     }
 
