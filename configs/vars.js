@@ -19,6 +19,7 @@ export default {
     google: {
         clientID: process.env.GOOGLE_OAUTH_CLIENT_ID,
         clientSecret: process.env.GOOGLE_OAUTH_CLIENT_SECRET,
+        redirect_url: process.env.GOOGLE_OAUTH_REDIRECT_URL,
     },
     cloudinary: {
         cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
